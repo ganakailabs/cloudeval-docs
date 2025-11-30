@@ -28,15 +28,15 @@ Since GitHub Pages only supports one CNAME per repository, we have two options:
 
 ```bash
 # Create new repository structure
-mkdir cloudeval-blog
-cd cloudeval-blog
+mkdir Cloudeval-blog
+cd Cloudeval-blog
 
 # Copy blog content from main repo
 cp -r ../cloudeval/docs/blog/* .
 
 # Create minimal mkdocs.yml for blog
 cat > mkdocs.yml << 'EOF'
-site_name: cloudeval Blog
+site_name: Cloudeval Blog
 site_url: https://blog.cloudeval.ai/
 theme:
   name: material
@@ -54,9 +54,9 @@ EOF
 
 # Create index.md
 cat > index.md << 'EOF'
-# cloudeval Blog
+# Cloudeval Blog
 
-Welcome to the cloudeval blog!
+Welcome to the Cloudeval blog!
 
 [View Full Documentation](https://docs.cloudeval.ai/)
 EOF
@@ -220,7 +220,7 @@ cp -r ../cloudeval/docs/blog/* .
 
 # Create mkdocs.yml
 cat > mkdocs.yml << 'EOF'
-site_name: cloudeval Blog
+site_name: Cloudeval Blog
 site_url: https://blog.cloudeval.ai/
 theme:
   name: material
@@ -282,9 +282,9 @@ EOF
 
 # Create README
 cat > README.md << 'EOF'
-# cloudeval Blog
+# Cloudeval Blog
 
-Blog repository for cloudeval documentation.
+Blog repository for Cloudeval Documentation.
 
 Visit: https://blog.cloudeval.ai/
 EOF
@@ -333,7 +333,7 @@ If you keep blog in the main repo and want to sync:
 
 ```bash
 # From main repo
-cd cloudeval
+cd Cloudeval
 ./sync-blog.sh ../cloudeval-blog
 ```
 

@@ -1,7 +1,7 @@
 # Connect Your Cloud Provider
 
 ::: warning Coming Soon
-Direct cloud account connection is currently in development. For now, cloudeval works with Infrastructure as Code files (ARM templates and Bicep).
+Direct cloud account connection is currently in development. For now, Cloudeval works with Infrastructure as Code files (ARM templates and Bicep).
 
 Use the [Playground](https://cloudeval.ai/playground) to explore features, or upload your ARM/Bicep files to get started immediately.
 :::
@@ -33,7 +33,7 @@ We're working on direct cloud account connections. Planned features include:
 
 1. Create Service Principal in Azure AD
 2. Assign Reader role at subscription level
-3. Enter credentials in cloudeval
+3. Enter credentials in Cloudeval
 4. Automatic resource discovery begins
 
 **Use Cases:**
@@ -80,11 +80,11 @@ az group export --name my-resource-group --output-file template.json
 az bicep build --file main.bicep
 ```
 
-### Step 2: Upload to cloudeval
+### Step 2: Upload to Cloudeval
 
 1. Create a new project
 2. Upload your ARM template or Bicep file
-3. cloudeval generates the diagram
+3. Cloudeval generates the diagram
 4. Edit and analyze your infrastructure
 
 ### Step 3: Keep in Sync
@@ -113,7 +113,7 @@ az bicep build --file main.bicep
 
 ## Alternative: Use Playground
 
-Try cloudeval features without uploading files:
+Try Cloudeval features without uploading files:
 
 **[Launch Playground →](https://cloudeval.ai/playground)**
 

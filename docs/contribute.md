@@ -1,6 +1,6 @@
-# Contribute to cloudeval Documentation
+# Contribute to Cloudeval Documentation
 
-We welcome contributions to cloudeval documentation! Your improvements help the entire community.
+We welcome contributions to Cloudeval Documentation! Your improvements help the entire community.
 
 ## How to Contribute
 
@@ -156,4 +156,4 @@ Contributors are recognized in:
 
 ---
 
-**Thank you for contributing to cloudeval!**
+**Thank you for contributing to Cloudeval!**

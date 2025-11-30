@@ -2,7 +2,7 @@
 
 **Make Your Diagrams Perfect for Your Needs**
 
-This tutorial shows you how to customize cloudeval diagrams to match your preferences, improve readability, and create documentation-ready visualizations.
+This tutorial shows you how to customize Cloudeval diagrams to match your preferences, improve readability, and create documentation-ready visualizations.
 
 ## Layout Options
 

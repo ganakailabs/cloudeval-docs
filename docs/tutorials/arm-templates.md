@@ -2,7 +2,7 @@
 
 **Generate Interactive Diagrams from Your ARM Templates**
 
-This tutorial shows you how to upload and visualize Azure ARM templates in cloudeval, creating interactive diagrams that help you understand your infrastructure before deployment.
+This tutorial shows you how to upload and visualize Azure ARM templates in Cloudeval, creating interactive diagrams that help you understand your infrastructure before deployment.
 
 <video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/automated-diagrams.webm" type="video/webm">
@@ -12,7 +12,7 @@ This tutorial shows you how to upload and visualize Azure ARM templates in cloud
 ## Prerequisites
 
 - Azure ARM template file (`.json`)
-- cloudeval account (or use [Playground](https://cloudeval.ai/playground))
+- Cloudeval account (or use [Playground](https://cloudeval.ai/playground))
 - Basic understanding of ARM templates
 
 ## Step 1: Prepare Your ARM Template
@@ -63,9 +63,9 @@ Try with a sample template first:
 }
 ```
 
-## Step 2: Upload to cloudeval
+## Step 2: Upload to Cloudeval
 
-1. **Sign in** to cloudeval (or use [Playground](https://cloudeval.ai/playground))
+1. **Sign in** to Cloudeval (or use [Playground](https://cloudeval.ai/playground))
 2. Click **"New Project"**
 3. Name your project (e.g., "Production ARM Template")
 4. Choose **"Upload File"**
@@ -176,11 +176,11 @@ Get AI-powered suggestions:
 
 ## Real-World Example
 
-### Before cloudeval
+### Before Cloudeval
 
 **Problem:** Manually reviewing large ARM templates is time-consuming and error-prone.
 
-**Solution:** cloudeval visualizes the entire template instantly.
+**Solution:** Cloudeval visualizes the entire template instantly.
 
 ### Template Structure
 

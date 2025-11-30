@@ -2,7 +2,7 @@
 
 **Generate Interactive Diagrams from Your Bicep Infrastructure Code**
 
-This tutorial shows you how to upload and visualize Azure Bicep files in cloudeval, creating interactive diagrams that help you understand your infrastructure before deployment.
+This tutorial shows you how to upload and visualize Azure Bicep files in Cloudeval, creating interactive diagrams that help you understand your infrastructure before deployment.
 
 <video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/automated-diagrams.webm" type="video/webm">
@@ -12,7 +12,7 @@ This tutorial shows you how to upload and visualize Azure Bicep files in cloudev
 ## Prerequisites
 
 - Azure Bicep file (`.bicep`)
-- cloudeval account (or use [Playground](https://cloudeval.ai/playground))
+- Cloudeval account (or use [Playground](https://cloudeval.ai/playground))
 - Basic understanding of Bicep syntax
 
 ## Step 1: Prepare Your Bicep File
@@ -56,9 +56,9 @@ If you have ARM templates:
 az bicep decompile --file template.json --out main.bicep
 ```
 
-## Step 2: Upload to cloudeval
+## Step 2: Upload to Cloudeval
 
-1. **Sign in** to cloudeval (or use [Playground](https://cloudeval.ai/playground))
+1. **Sign in** to Cloudeval (or use [Playground](https://cloudeval.ai/playground))
 2. Click **"New Project"**
 3. Name your project (e.g., "Production Bicep")
 4. Choose **"Upload File"**
@@ -110,7 +110,7 @@ cloudeval shows:
 
 If your Bicep uses modules:
 
-1. cloudeval shows module hierarchy
+1. Cloudeval shows module hierarchy
 2. Click modules to see contents
 3. View module parameters
 4. See module outputs
@@ -216,11 +216,11 @@ Get AI-powered suggestions:
 
 ## Real-World Example
 
-### Before cloudeval
+### Before Cloudeval
 
 **Problem:** Understanding complex Bicep files with multiple modules is difficult.
 
-**Solution:** cloudeval visualizes the entire Bicep structure instantly.
+**Solution:** Cloudeval visualizes the entire Bicep structure instantly.
 
 ### Bicep Structure
 

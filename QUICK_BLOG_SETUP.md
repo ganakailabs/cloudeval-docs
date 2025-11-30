@@ -31,7 +31,7 @@ This will:
 ```bash
 # Clone the new repository
 git clone https://github.com/ganakailabs/cloudeval-blog.git
-cd cloudeval-blog
+cd Cloudeval-blog
 
 # Copy blog content from main repo
 cp -r ../cloudeval/docs/blog/* blog/
@@ -77,8 +77,8 @@ You'll have **two CNAME records** in Namecheap:
 
 | Host | Type | Value | Repository |
 |------|------|-------|------------|
-| `docs` | CNAME | `ganakailabs.github.io` | cloudeval |
-| `blog` | CNAME | `ganakailabs.github.io` | cloudeval-blog |
+| `docs` | CNAME | `ganakailabs.github.io` | Cloudeval |
+| `blog` | CNAME | `ganakailabs.github.io` | Cloudeval-blog |
 
 ## Result
 

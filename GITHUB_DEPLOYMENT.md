@@ -1,6 +1,6 @@
 # GitHub Pages Deployment Guide
 
-Complete guide for deploying cloudeval documentation to GitHub Pages with custom domain support.
+Complete guide for deploying Cloudeval Documentation to GitHub Pages with custom domain support.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ If the `gh-pages` branch doesn't exist, create it:
 ```bash
 # Clone the repository
 git clone https://github.com/ganakailabs/cloudeval.git
-cd cloudeval
+cd Cloudeval
 
 # Create and switch to gh-pages branch
 git checkout --orphan gh-pages

@@ -31,9 +31,9 @@ cp -r "$CURRENT_DIR/docs/blog"/* blog/ 2>/dev/null || {
     echo "⚠️  Blog directory not found, creating sample files..."
     mkdir -p blog
     cat > blog/index.md << 'EOF'
-# cloudeval Blog
+# Cloudeval Blog
 
-Welcome to the cloudeval blog!
+Welcome to the Cloudeval blog!
 
 [View Full Documentation](https://docs.cloudeval.ai/)
 EOF
@@ -42,10 +42,10 @@ EOF
 # Create mkdocs.yml
 echo "⚙️  Creating mkdocs.yml..."
 cat > mkdocs.yml << 'EOF'
-site_name: cloudeval Blog
+site_name: Cloudeval Blog
 site_url: https://blog.cloudeval.ai/
-site_description: cloudeval Blog - Updates, tutorials, and insights
-site_author: cloudeval Team
+site_description: Cloudeval Blog - Updates, tutorials, and insights
+site_author: Cloudeval Team
 
 repo_url: https://github.com/ganakailabs/cloudeval-blog
 edit_uri: edit/main/blog/
@@ -117,13 +117,13 @@ EOF
 # Create index.md
 echo "📄 Creating index.md..."
 cat > index.md << 'EOF'
-# cloudeval Blog
+# Cloudeval Blog
 
-Welcome to the cloudeval blog! Here you'll find updates, tutorials, and insights about cloud evaluation and best practices.
+Welcome to the Cloudeval blog! Here you'll find updates, tutorials, and insights about cloud evaluation and best practices.
 
 ## Latest Posts
 
-- [Getting Started with cloudeval](blog/getting-started-with-cloudeval.md)
+- [Getting Started with Cloudeval](blog/getting-started-with-cloudeval.md)
 - [Security Best Practices](blog/security-best-practices.md)
 - [Cost Optimization Case Study](blog/cost-optimization-case-study.md)
 - [CI/CD Integration Guide](blog/ci-cd-integration.md)
@@ -199,9 +199,9 @@ EOF
 # Create README
 echo "📝 Creating README..."
 cat > README.md << 'EOF'
-# cloudeval Blog
+# Cloudeval Blog
 
-Blog repository for cloudeval documentation.
+Blog repository for Cloudeval Documentation.
 
 Visit: https://blog.cloudeval.ai/
 

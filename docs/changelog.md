@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to cloudeval will be documented in this file.
+All notable changes to Cloudeval will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -46,7 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial release of cloudeval
+- Initial release of Cloudeval
 - AI-powered cloud infrastructure visualization
 - Support for AWS, Azure, and GCP
 - Automated diagram generation

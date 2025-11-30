@@ -1,8 +1,8 @@
-# Getting Started with cloudeval
+# Getting Started with Cloudeval
 
 **From Sign-Up to Your First Diagram in 5 Minutes**
 
-This guide will walk you through setting up cloudeval and generating your first infrastructure diagram from Azure ARM templates or Bicep files. By the end, you'll have a working visualization of your infrastructure.
+This guide will walk you through setting up Cloudeval and generating your first infrastructure diagram from Azure ARM templates or Bicep files. By the end, you'll have a working visualization of your infrastructure.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Before you begin, make sure you have:
 
 ## Step 2: Try the Playground
 
-**New to cloudeval?** Try our interactive playground to explore features without signing up:
+**New to Cloudeval?** Try our interactive playground to explore features without signing up:
 
 **[Launch Playground →](https://cloudeval.ai/playground)**
 
@@ -34,9 +34,9 @@ The playground lets you:
 - Explore sample infrastructure diagrams
 - Try the AI chat assistant
 - Test diagram features
-- See cloudeval in action
+- See Cloudeval in action
 
-**Tip:** Use the playground to get familiar with cloudeval before working with your own infrastructure.
+**Tip:** Use the playground to get familiar with Cloudeval before working with your own infrastructure.
 
 ## Step 3: Create Your First Project
 
@@ -52,7 +52,7 @@ The playground lets you:
 
     1. Click **"Upload File"** or drag and drop
     2. Select your ARM template (`.json`) or Bicep file (`.bicep`)
-    3. cloudeval automatically parses the file
+    3. Cloudeval automatically parses the file
     4. Resources are discovered and mapped
 
     **Supported Formats:**
@@ -69,7 +69,7 @@ The playground lets you:
       --parameters @parameters.json
     ```
 
-    Then upload `main.bicep` to cloudeval!
+    Then upload `main.bicep` to Cloudeval!
 
 === "Cloud Import (Coming Soon)"
 
@@ -91,7 +91,7 @@ The playground lets you:
 
 ## Step 4: Generate Your First Diagram
 
-Once your project is created, cloudeval will automatically:
+Once your project is created, Cloudeval will automatically:
 
 1. **Parse Infrastructure Code** - Analyze your ARM/Bicep templates
 2. **Map Resources** - Identify all Azure resources
@@ -168,7 +168,7 @@ cloudeval includes a web-based editor for your Infrastructure as Code:
 - **Asked a question in AI chat**
 - **Edited infrastructure code**
 
-**Congratulations!** You've successfully set up cloudeval and generated your first infrastructure diagram.
+**Congratulations!** You've successfully set up Cloudeval and generated your first infrastructure diagram.
 
 ## Next Steps
 

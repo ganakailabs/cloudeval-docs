@@ -4,23 +4,23 @@
 
 ## General Questions
 
-### What is cloudeval?
+### What is Cloudeval?
 
 cloudeval is an AI-powered cloud infrastructure visualization platform that automatically generates architecture diagrams from your Infrastructure as Code (ARM templates and Bicep files), answers questions about your infrastructure, and helps optimize costs.
 
-### How does cloudeval work?
+### How does Cloudeval work?
 
 cloudeval works with your Infrastructure as Code files:
 
 1. Upload your ARM template or Bicep file
-2. cloudeval parses and analyzes the code
+2. Cloudeval parses and analyzes the code
 3. Maps resources and dependencies
 4. Generates interactive diagrams
 5. You can ask questions, edit code, and export diagrams
 
-### Is cloudeval secure?
+### Is Cloudeval secure?
 
-Yes. cloudeval:
+Yes. Cloudeval:
 
 - **No Cloud Access Required** - Works entirely from your code files
 - **Encrypted Storage** - All data encrypted at rest and in transit
@@ -40,7 +40,7 @@ Yes. cloudeval:
 ### Can I connect my Azure account directly?
 
 ::: warning Coming Soon
-Direct Azure account connection is currently in development. cloudeval currently works with Infrastructure as Code files.
+Direct Azure account connection is currently in development. Cloudeval currently works with Infrastructure as Code files.
 
 **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 :::
@@ -53,7 +53,7 @@ For now, you can:
 
 ### Do I need to install anything?
 
-No. cloudeval is a web-based application. Just sign up and use it in your browser.
+No. Cloudeval is a web-based application. Just sign up and use it in your browser.
 
 ## Getting Started
 
@@ -71,7 +71,7 @@ The [Playground](https://cloudeval.ai/playground) is an interactive demo where y
 - Explore sample infrastructure diagrams
 - Try the AI chat assistant
 - Test diagram features
-- Learn cloudeval without uploading files
+- Learn Cloudeval without uploading files
 
 **No sign-up required!**
 
@@ -80,7 +80,7 @@ The [Playground](https://cloudeval.ai/playground) is an interactive demo where y
 1. Create a new project
 2. Click **"Upload File"**
 3. Select your ARM template (`.json`) file
-4. cloudeval automatically parses and generates the diagram
+4. Cloudeval automatically parses and generates the diagram
 
 ### How do I upload my Bicep file?
 
@@ -88,7 +88,7 @@ The [Playground](https://cloudeval.ai/playground) is an interactive demo where y
 2. Click **"Upload File"**
 3. Select your Bicep file (`.bicep`)
 4. For modular templates, upload all related files
-5. cloudeval automatically parses and generates the diagram
+5. Cloudeval automatically parses and generates the diagram
 
 ## Infrastructure as Code
 
@@ -116,9 +116,9 @@ cloudeval supports:
 - Functions
 - Decorators
 
-### Can I edit my templates in cloudeval?
+### Can I edit my templates in Cloudeval?
 
-Yes! cloudeval includes a web-based code editor:
+Yes! Cloudeval includes a web-based code editor:
 
 - Syntax highlighting
 - Auto-completion
@@ -132,12 +132,12 @@ For ARM templates:
 
 - Upload the main template
 - Upload linked templates separately
-- cloudeval resolves references
+- Cloudeval resolves references
 
 For Bicep:
 
 - Upload all module files
-- cloudeval shows module hierarchy
+- Cloudeval shows module hierarchy
 - Visualize module dependencies
 
 ## Diagrams & Visualization

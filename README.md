@@ -1,6 +1,6 @@
-# cloudeval Docs
+# Cloudeval Docs
 
-Documentation for cloudeval built with MkDocs and Material theme, following the same deployment pattern as [PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure).
+Documentation for Cloudeval built with MkDocs and Material theme, following the same deployment pattern as [PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure).
 
 ## Setup
 

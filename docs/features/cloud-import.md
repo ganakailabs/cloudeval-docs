@@ -1,7 +1,7 @@
 # Cloud Import
 
 ::: warning Coming Soon
-Direct cloud account import is currently in development. cloudeval currently works with Infrastructure as Code files (ARM templates and Bicep).
+Direct cloud account import is currently in development. Cloudeval currently works with Infrastructure as Code files (ARM templates and Bicep).
 
 **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 :::
@@ -29,7 +29,7 @@ We're working on direct Azure account connections. Here's what's planned:
 ### Automatic Discovery
 
 1. **Connect Azure Subscription** - Provide read-only API access
-2. **Resource Scanning** - cloudeval scans your Azure subscription
+2. **Resource Scanning** - Cloudeval scans your Azure subscription
 3. **Metadata Collection** - Gathers resource properties and relationships
 4. **Relationship Mapping** - Identifies connections and dependencies
 5. **Diagram Generation** - Creates interactive visualization
@@ -82,11 +82,11 @@ az group export --name my-resource-group --output-file template.json
 az bicep build --file main.bicep
 ```
 
-### Step 2: Upload to cloudeval
+### Step 2: Upload to Cloudeval
 
 1. Create a new project
 2. Upload your ARM template or Bicep file
-3. cloudeval parses and generates diagram
+3. Cloudeval parses and generates diagram
 4. Edit and analyze your infrastructure
 
 ### Step 3: Keep in Sync

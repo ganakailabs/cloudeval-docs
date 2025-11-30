@@ -2,7 +2,7 @@
 
 **Share Your Infrastructure Diagrams in Any Format**
 
-Export your cloudeval diagrams to share with stakeholders, include in documentation, or use in presentations.
+Export your Cloudeval diagrams to share with stakeholders, include in documentation, or use in presentations.
 
 <video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/export.webm" type="video/webm">

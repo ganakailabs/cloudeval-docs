@@ -1,10 +1,10 @@
-# cloudeval Documentation
+# Cloudeval Documentation
 
 **Stop Manually Drawing Cloud Diagrams – Here's the 2-Minute Fix**
 
-Welcome to cloudeval, the AI-powered cloud infrastructure visualization platform that automatically generates architecture diagrams from your Infrastructure as Code, answers questions about your infrastructure, and helps you optimize costs—all in one place.
+Welcome to Cloudeval, the AI-powered cloud infrastructure visualization platform that automatically generates architecture diagrams from your Infrastructure as Code, answers questions about your infrastructure, and helps you optimize costs—all in one place.
 
-## What is cloudeval?
+## What is Cloudeval?
 
 cloudeval is an AI-powered cloud diagramming tool designed for DevOps engineers, SREs, and cloud architects. It automatically visualizes your Azure infrastructure from ARM templates and Bicep files, generates interactive diagrams, and provides AI-powered insights through natural language chat.
 
@@ -52,7 +52,7 @@ Get up and running in minutes:
 
 ### Speed
 
-Stop spending hours manually drawing diagrams. cloudeval generates accurate architecture diagrams from your Infrastructure as Code in seconds.
+Stop spending hours manually drawing diagrams. Cloudeval generates accurate architecture diagrams from your Infrastructure as Code in seconds.
 
 ### Clarity
 
@@ -84,7 +84,7 @@ Always up-to-date diagrams that reflect your actual infrastructure code, elimina
 - **[AI Chat Tutorial](tutorials/ai-chat-basics.md)** - Master the AI assistant
 - **[Export Diagrams](features/export.md)** - Share your diagrams
 
-## Try cloudeval Free
+## Try Cloudeval Free
 
 **[Launch Playground](https://cloudeval.ai/playground)** - Try features without signing up  
 **[Sign Up Free](https://cloudeval.ai/signup)** - No credit card required

@@ -1,8 +1,8 @@
 # Tutorial: Use the AI Assistant to Explain Your Infrastructure
 
-**Master cloudeval's AI Chat for Instant Infrastructure Insights**
+**Master Cloudeval's AI Chat for Instant Infrastructure Insights**
 
-This tutorial teaches you how to effectively use cloudeval's AI chat assistant to understand, analyze, and optimize your cloud infrastructure.
+This tutorial teaches you how to effectively use Cloudeval's AI chat assistant to understand, analyze, and optimize your cloud infrastructure.
 
 ## Getting Started with AI Chat
 

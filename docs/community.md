@@ -1,8 +1,8 @@
 # Community & Feedback
 
-**Join the cloudeval Community**
+**Join the Cloudeval Community**
 
-Connect with other cloudeval users, share tips, get help, and contribute to making cloudeval better.
+Connect with other Cloudeval users, share tips, get help, and contribute to making Cloudeval better.
 
 ## Join Our Community
 
