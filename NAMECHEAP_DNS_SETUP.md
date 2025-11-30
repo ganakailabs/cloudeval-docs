@@ -56,17 +56,27 @@ TTL: Automatic
 
 ## Complete Configuration Summary
 
-Here's what your Namecheap DNS should have:
+Here's what your Namecheap DNS should have for the main documentation:
 
 | Type  | Host | Value                 | TTL       |
 | ----- | ---- | --------------------- | --------- |
 | CNAME | docs | ganakailabs.github.io | Automatic |
 
+### Additional: Blog Subdomain (Optional)
+
+If you want to set up `blog.cloudeval.ai` as a separate subdomain, add another CNAME record:
+
+| Type  | Host | Value                 | TTL       |
+| ----- | ---- | --------------------- | --------- |
+| CNAME | blog | ganakailabs.github.io | Automatic |
+
+**Note:** This requires a separate repository for the blog. See [BLOG_SUBDOMAIN_SETUP.md](BLOG_SUBDOMAIN_SETUP.md) for complete setup instructions.
+
 ## Next Steps (After DNS Configuration)
 
 ### 1. Configure GitHub Repository
 
-1. Go to your GitHub repository: `https://github.com/ganakailabs/cloudeval-docs`
+1. Go to your GitHub repository: `https://github.com/ganakailabs/cloudeval`
 2. Navigate to **Settings** → **Pages**
 3. In the **Custom domain** field, enter: `docs.cloudeval.ai`
 4. Click **Save**

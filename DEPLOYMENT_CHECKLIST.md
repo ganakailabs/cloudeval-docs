@@ -4,7 +4,7 @@ Use this checklist to ensure your documentation site is properly deployed.
 
 ## Pre-Deployment
 
-- [ ] Repository is created on GitHub: `ganakailabs/cloudeval-docs`
+- [ ] Repository is created on GitHub: `ganakailabs/cloudeval`
 - [ ] All documentation files are committed to `main` branch
 - [ ] `mkdocs.yml` is configured correctly
 - [ ] `requirements.txt` includes all dependencies
@@ -24,7 +24,7 @@ Use this checklist to ensure your documentation site is properly deployed.
 - [ ] Push code to `main` branch OR manually trigger workflow
 - [ ] Check Actions tab - workflow runs successfully
 - [ ] Verify `gh-pages` branch is created/updated
-- [ ] Site is accessible at `https://ganakailabs.github.io/cloudeval-docs/`
+- [ ] Site is accessible at `https://ganakailabs.github.io/cloudeval/`
 
 ## Custom Domain Setup
 
@@ -97,9 +97,9 @@ If any step fails:
 
 ### URLs
 
-- **GitHub Pages (default):** `https://ganakailabs.github.io/cloudeval-docs/`
+- **GitHub Pages (default):** `https://ganakailabs.github.io/cloudeval/`
 - **Custom Domain:** `https://docs.cloudeval.ai/`
-- **Repository:** `https://github.com/ganakailabs/cloudeval-docs`
+- **Repository:** `https://github.com/ganakailabs/cloudeval`
 
 ### Important Files
 

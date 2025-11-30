@@ -1,6 +1,6 @@
-# Cloudeval Docs
+# cloudeval Docs
 
-Documentation for Cloudeval built with MkDocs and Material theme, following the same deployment pattern as [PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure).
+Documentation for cloudeval built with MkDocs and Material theme, following the same deployment pattern as [PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure).
 
 ## Setup
 
@@ -54,7 +54,7 @@ Before the first deployment:
 Once deployed, the site will be available at:
 
 - Custom domain: `https://docs.cloudeval.ai/` (after DNS configuration)
-- GitHub Pages: `https://ganakailabs.github.io/cloudeval-docs/`
+- GitHub Pages: `https://ganakailabs.github.io/cloudeval/`
 
 ### Custom Domain
 

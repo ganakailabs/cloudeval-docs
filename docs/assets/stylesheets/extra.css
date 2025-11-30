@@ -1,3 +1,38 @@
+/* Responsive images with minimum size */
+.md-typeset img {
+  min-width: 600px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Responsive images on mobile */
+@media screen and (max-width: 768px) {
+  .md-typeset img {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Responsive videos */
+.md-typeset video {
+  min-width: 600px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+@media screen and (max-width: 768px) {
+  .md-typeset video {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 @keyframes heart {
   0%,
   40%,

@@ -13,7 +13,7 @@ git commit -m "Initial documentation setup"
 git push origin main
 
 # 2. Enable GitHub Pages
-# Go to: https://github.com/ganakailabs/cloudeval-docs/settings/pages
+# Go to: https://github.com/ganakailabs/cloudeval/settings/pages
 # Set Source: GitHub Actions
 # Click Save
 ```
@@ -42,7 +42,7 @@ The workflow will automatically run when you push to `main`, or manually:
 
 ### Step 1: GitHub Configuration
 
-**URL:** `https://github.com/ganakailabs/cloudeval-docs/settings/pages`
+**URL:** `https://github.com/ganakailabs/cloudeval/settings/pages`
 
 1. Scroll to **Custom domain**
 2. Enter: `docs.cloudeval.ai`
@@ -65,7 +65,7 @@ TTL:     Automatic
 
 **⚠️ Important:**
 - Host = `docs` (NOT `docs.cloudeval.ai`)
-- Value = `ganakailabs.github.io` (NO `https://`, NO `/cloudeval-docs`)
+- Value = `ganakailabs.github.io` (NO `https://`, NO `/cloudeval`)
 
 ### Step 3: Wait & Verify
 
@@ -92,7 +92,7 @@ After DNS propagates (usually 10 min - 1 hour):
 
 - [ ] GitHub Pages enabled (Source: GitHub Actions)
 - [ ] Workflow runs successfully (check Actions tab)
-- [ ] Site accessible at `https://ganakailabs.github.io/cloudeval-docs/`
+- [ ] Site accessible at `https://ganakailabs.github.io/cloudeval/`
 - [ ] Custom domain entered in GitHub: `docs.cloudeval.ai`
 - [ ] CNAME record added in Namecheap
 - [ ] DNS propagated (verified)
@@ -151,7 +151,7 @@ After DNS propagates (usually 10 min - 1 hour):
 
 - Check workflow logs: **Actions** → **Docs** → Latest run
 - Review detailed guides above
-- [Open an issue](https://github.com/ganakailabs/cloudeval-docs/issues)
+- [Open an issue](https://github.com/ganakailabs/cloudeval/issues)
 
 ---
 

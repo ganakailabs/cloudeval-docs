@@ -1,16 +1,16 @@
-# Getting Started with Cloudeval: A Beginner's Guide
+# Getting Started with cloudeval: A Beginner's Guide
 
 **Published:** January 15, 2025  
-**Author:** Cloudeval Team  
+**Author:** cloudeval Team  
 **Category:** Tutorials
 
 ## Introduction
 
-Welcome to Cloudeval! If you're new to cloud evaluation and assessment, this guide will help you get started on the right foot. We'll walk you through the basics of setting up Cloudeval and running your first evaluation.
+Welcome to cloudeval! If you're new to cloud evaluation and assessment, this guide will help you get started on the right foot. We'll walk you through the basics of setting up cloudeval and running your first evaluation.
 
-## What is Cloudeval?
+## What is cloudeval?
 
-Cloudeval is a comprehensive platform for evaluating and assessing cloud infrastructure. It helps you:
+cloudeval is a comprehensive platform for evaluating and assessing cloud infrastructure. It helps you:
 
 - Identify configuration issues before deployment
 - Ensure compliance with best practices
@@ -27,7 +27,7 @@ Before you begin, make sure you have:
 
 ## Installation
 
-### Step 1: Install Cloudeval
+### Step 1: Install cloudeval
 
 ```bash
 pip install cloudeval
@@ -128,7 +128,7 @@ Reliability checks ensure:
 
 ## Conclusion
 
-You're now ready to start evaluating your cloud infrastructure with Cloudeval! For more advanced topics, check out our [tutorials](tutorials.md) and [best practices](best-practices.md) guides.
+You're now ready to start evaluating your cloud infrastructure with cloudeval! For more advanced topics, check out our [tutorials](tutorials.md) and [best practices](best-practices.md) guides.
 
 ## Resources
 
@@ -138,4 +138,4 @@ You're now ready to start evaluating your cloud infrastructure with Cloudeval! F
 
 ---
 
-Have questions? [Open an issue](https://github.com/ganakailabs/cloudeval-docs/issues) or [start a discussion](https://github.com/ganakailabs/cloudeval-docs/discussions)!
+Have questions? [Open an issue](https://github.com/ganakailabs/cloudeval/issues) or [start a discussion](https://github.com/ganakailabs/cloudeval/discussions)!

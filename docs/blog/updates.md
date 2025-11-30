@@ -1,6 +1,6 @@
 # Updates
 
-Product updates and announcements for Cloudeval.
+Product updates and announcements for cloudeval.
 
 ## 2025
 
@@ -10,7 +10,7 @@ Product updates and announcements for Cloudeval.
 
 **Date:** January 2025
 
-We're excited to announce the launch of the Cloudeval documentation site! This new site provides comprehensive guides, reference materials, and best practices for cloud evaluation.
+We're excited to announce the launch of the cloudeval documentation site! This new site provides comprehensive guides, reference materials, and best practices for cloud evaluation.
 
 **What's New:**
 

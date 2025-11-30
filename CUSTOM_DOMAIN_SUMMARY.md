@@ -8,14 +8,14 @@ Quick reference for setting up `docs.cloudeval.ai` with GitHub Pages.
 
 - **Domain:** `docs.cloudeval.ai`
 - **GitHub Pages URL:** `ganakailabs.github.io`
-- **Repository:** `ganakailabs/cloudeval-docs`
+- **Repository:** `ganakailabs/cloudeval`
 - **CNAME File:** `docs/CNAME` contains `docs.cloudeval.ai`
 
 ## Required Changes
 
 ### 1. GitHub Repository Settings
 
-**Location:** `https://github.com/ganakailabs/cloudeval-docs/settings/pages`
+**Location:** `https://github.com/ganakailabs/cloudeval/settings/pages`
 
 **Actions Required:**
 1. Go to **Settings** → **Pages**
@@ -43,7 +43,7 @@ Quick reference for setting up `docs.cloudeval.ai` with GitHub Pages.
 **Important Notes:**
 - Host should be just `docs` (NOT `docs.cloudeval.ai`)
 - Value should be `ganakailabs.github.io` (NO `https://`, NO trailing slash, NO repository path)
-- Do NOT include `/cloudeval-docs` in the value
+- Do NOT include `/cloudeval` in the value
 
 **Status:** ⬜ Not Done | ✅ Done
 
@@ -135,7 +135,7 @@ mkdocs serve
 - [Full Deployment Guide](GITHUB_DEPLOYMENT.md)
 - [Namecheap DNS Setup](NAMECHEAP_DNS_SETUP.md)
 - [Deployment Checklist](DEPLOYMENT_CHECKLIST.md)
-- [GitHub Issues](https://github.com/ganakailabs/cloudeval-docs/issues)
+- [GitHub Issues](https://github.com/ganakailabs/cloudeval/issues)
 
 ---
 

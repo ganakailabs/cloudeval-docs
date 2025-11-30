@@ -1,10 +1,10 @@
 # GitHub Pages Deployment Guide
 
-Complete guide for deploying Cloudeval documentation to GitHub Pages with custom domain support.
+Complete guide for deploying cloudeval documentation to GitHub Pages with custom domain support.
 
 ## Prerequisites
 
-- GitHub repository: `ganakailabs/cloudeval-docs`
+- GitHub repository: `ganakailabs/cloudeval`
 - Repository is public (or GitHub Pro/Team for private repos)
 - Admin access to the repository
 
@@ -23,8 +23,8 @@ If the `gh-pages` branch doesn't exist, create it:
 
 ```bash
 # Clone the repository
-git clone https://github.com/ganakailabs/cloudeval-docs.git
-cd cloudeval-docs
+git clone https://github.com/ganakailabs/cloudeval.git
+cd cloudeval
 
 # Create and switch to gh-pages branch
 git checkout --orphan gh-pages
@@ -131,7 +131,7 @@ Check deployment status:
 
 ### Check Deployment
 
-1. Visit: `https://ganakailabs.github.io/cloudeval-docs/` (before custom domain)
+1. Visit: `https://ganakailabs.github.io/cloudeval/` (before custom domain)
 2. Visit: `https://docs.cloudeval.ai/` (after DNS setup)
 
 ### Verify CNAME
@@ -255,5 +255,5 @@ git push origin gh-pages
 
 - [GitHub Pages Documentation](https://docs.github.com/pages)
 - [MkDocs Documentation](https://www.mkdocs.org/)
-- [Open an Issue](https://github.com/ganakailabs/cloudeval-docs/issues)
+- [Open an Issue](https://github.com/ganakailabs/cloudeval/issues)
 

@@ -64,7 +64,7 @@ Before the first deployment, you need to:
 ### After First Deployment
 
 Once the workflow runs successfully:
-- Your site will be available at: `https://ganakailabs.github.io/cloudeval-docs/`
+- Your site will be available at: `https://ganakailabs.github.io/cloudeval/`
 - Future pushes to `main` will automatically rebuild and redeploy
 
 ## Custom Domain Setup
