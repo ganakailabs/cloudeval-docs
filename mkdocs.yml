@@ -85,8 +85,6 @@ plugins:
 - git-committers:
     repository: ganakailabs/cloudeval-docs
     branch: main
-    enabled: !ENV [GITHUB_TOKEN, false]
-    token: !ENV GITHUB_TOKEN
 - search
 
 nav:
