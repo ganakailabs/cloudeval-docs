@@ -1,10 +1,16 @@
 # Tutorial: Visualize Azure Bicep Files
 
+::: warning Coming Soon
+Azure Bicep file support is coming in **Early February 2026** as part of our "Full Infrastructure as Code Support" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
+
+Currently, you can upload ARM templates (JSON). This tutorial will be available when Bicep support launches.
+:::
+
 **Generate Interactive Diagrams from Your Bicep Infrastructure Code**
 
-This tutorial shows you how to upload and visualize Azure Bicep files in Cloudeval, creating interactive diagrams that help you understand your infrastructure before deployment.
+This tutorial will show you how to upload and visualize Azure Bicep files in Cloudeval, creating interactive diagrams that help you understand your infrastructure before deployment.
 
-<video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
+<video controls preload="metadata" style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/automated-diagrams.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
@@ -20,6 +26,7 @@ This tutorial shows you how to upload and visualize Azure Bicep files in Cloudev
 ### Option A: Use Existing Bicep File
 
 If you already have Bicep files:
+
 - Ensure valid Bicep syntax
 - Include all required parameters
 - Reference any modules
@@ -83,6 +90,7 @@ Cloudeval automatically:
 ### Resource Visualization
 
 Each resource in your Bicep file appears as a node:
+
 - **Color-coded** by resource type
 - **Grouped** logically
 - **Connected** by dependencies and references
@@ -90,6 +98,7 @@ Each resource in your Bicep file appears as a node:
 ### View Resource Details
 
 Click on any resource to see:
+
 - Resource type and API version
 - Properties from Bicep
 - Parameters used
@@ -99,6 +108,7 @@ Click on any resource to see:
 ### Understand Dependencies
 
 Cloudeval shows:
+
 - **Direct Dependencies** - Resources this depends on
 - **Dependents** - Resources that depend on this
 - **Module Dependencies** - Module relationships
@@ -137,6 +147,7 @@ module vmModule 'modules/vm.bicep' = {
 ```
 
 Cloudeval visualizes:
+
 - Module relationships
 - Parameter flow
 - Output dependencies
@@ -198,6 +209,7 @@ Ask questions about your Bicep file:
 ### Check for Issues
 
 Cloudeval identifies:
+
 - Missing required parameters
 - Invalid resource references
 - Circular dependencies
@@ -208,6 +220,7 @@ Cloudeval identifies:
 ### Review Recommendations
 
 Get AI-powered suggestions:
+
 - Security improvements
 - Cost optimizations
 - Architecture enhancements
@@ -255,6 +268,7 @@ module storage 'modules/storage.bicep' = {
 ### Diagram Generated
 
 Cloudeval automatically shows:
+
 - Module hierarchy
 - Parameter flow between modules
 - Output dependencies
@@ -301,4 +315,3 @@ Cloudeval automatically shows:
 ---
 
 **Ready for more?** Check out other [tutorials](../index.md) or [feature guides](../features/)
-

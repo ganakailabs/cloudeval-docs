@@ -100,7 +100,7 @@ Once your project is created, Cloudeval will automatically:
 
 **This typically takes 10-30 seconds depending on template complexity.**
 
-<video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
+<video controls preload="metadata" style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/automated-diagrams.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
@@ -138,7 +138,7 @@ Click on any resource node to see:
 
 Cloudeval includes a web-based editor for your Infrastructure as Code:
 
-<video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
+<video controls preload="metadata" style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/web-editor.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>

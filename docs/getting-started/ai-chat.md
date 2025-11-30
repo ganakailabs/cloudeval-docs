@@ -4,7 +4,7 @@
 
 cloudeval's AI chat assistant understands your infrastructure and can answer questions, provide insights, and help you optimize your cloud setup.
 
-<video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
+<video controls preload="metadata" style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/chat-with-your-cloud.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>

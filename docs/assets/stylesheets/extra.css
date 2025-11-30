@@ -23,6 +23,26 @@
   height: auto;
   display: block;
   margin: 1.5rem auto;
+  background-color: #000;
+  width: 100%;
+}
+
+.md-typeset video[controls] {
+  width: 100%;
+}
+
+/* Ensure videos load properly */
+.md-typeset video source {
+  display: block;
+}
+
+/* Video loading states */
+.md-typeset video:not([src]) {
+  background-color: #f5f5f5;
+}
+
+[data-md-color-scheme="slate"] .md-typeset video:not([src]) {
+  background-color: #1e1e1e;
 }
 
 @media screen and (max-width: 768px) {
@@ -109,18 +129,18 @@
 /* message */
 .md-typeset .admonition.message,
 .md-typeset details.message {
-  border-color: rgb(0, 184, 212);
+  border-color: rgb(0, 100, 80);
 }
 
 .md-typeset .message > .admonition-title,
 .md-typeset .message > summary {
-  background-color: rgba(0, 184, 212, 0.1);
-  border-color: rgb(0, 184, 212);
+  background-color: rgba(0, 100, 80, 0.1);
+  border-color: rgb(0, 100, 80);
 }
 
 .md-typeset .message > .admonition-title::before,
 .md-typeset .message > summary::before {
-  background-color: rgb(0, 184, 212);
+  background-color: rgb(0, 100, 80);
   -webkit-mask-image: var(--md-admonition-icon--message);
   mask-image: var(--md-admonition-icon--message);
 }
@@ -128,18 +148,18 @@
 /* security */
 .md-typeset .admonition.security,
 .md-typeset details.security {
-  border-color: rgb(32, 148, 243);
+  border-color: rgb(0, 100, 80);
 }
 
 .md-typeset .security > .admonition-title,
 .md-typeset .security > summary {
-  background-color: rgba(32, 148, 243, 0.1);
-  border-color: rgb(32, 148, 243);
+  background-color: rgba(0, 100, 80, 0.1);
+  border-color: rgb(0, 100, 80);
 }
 
 .md-typeset .security > .admonition-title::before,
 .md-typeset .security > summary::before {
-  background-color: rgb(32, 148, 243);
+  background-color: rgb(0, 100, 80);
   -webkit-mask-image: var(--md-admonition-icon--security);
   mask-image: var(--md-admonition-icon--security);
 }
@@ -162,4 +182,227 @@
 .md-typeset .badge__text {
   box-shadow: 0 0 0 1px inset var(--md-accent-fg-color--transparent);
   padding: 0.2rem 0.3rem;
+}
+
+/* Links - Dark green color (override Material theme blue) */
+.md-typeset a,
+.md-typeset a:link,
+.md-typeset a:visited,
+.md-typeset a:focus {
+  color: #006644 !important;
+}
+
+/* Lighter green for dark theme */
+[data-md-color-scheme="slate"] .md-typeset a,
+[data-md-color-scheme="slate"] .md-typeset a:link,
+[data-md-color-scheme="slate"] .md-typeset a:visited,
+[data-md-color-scheme="slate"] .md-typeset a:focus {
+  color: #00d99a !important;
+}
+
+.md-typeset a:hover {
+  color: #008055 !important;
+}
+
+/* More vibrant hover for dark theme */
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #00ff99 !important;
+}
+
+/* Override Material theme default link colors */
+:root {
+  --md-typeset-a-color: #006644;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #00d99a;
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color: #006644;
+}
+
+/* Navigation links - Left sidebar and right TOC - Override all blue colors */
+.md-nav__link,
+.md-nav__link:link,
+.md-nav__link:visited {
+  color: inherit !important;
+}
+
+.md-nav__link--active,
+.md-nav__link[data-md-state="blur"] {
+  color: #006644 !important;
+}
+
+/* Lighter green for active links in dark theme */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link[data-md-state="blur"] {
+  color: #00d99a !important;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus {
+  color: #008055 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link:focus {
+  color: #00ff99 !important;
+}
+
+/* Override blue colors in navigation items */
+.md-nav__item .md-nav__link,
+.md-nav__item .md-nav__link:link,
+.md-nav__item .md-nav__link:visited {
+  color: inherit !important;
+}
+
+.md-nav__item .md-nav__link:hover,
+.md-nav__item .md-nav__link:focus {
+  color: #008055 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link:focus {
+  color: #00ff99 !important;
+}
+
+.md-nav__item .md-nav__link--active {
+  color: #006644 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active {
+  color: #00d99a !important;
+}
+
+/* Table of contents links (right sidebar) */
+.md-sidebar__scrollwrap .md-nav__link,
+.md-sidebar__scrollwrap .md-nav__link:link,
+.md-sidebar__scrollwrap .md-nav__link:visited {
+  color: inherit !important;
+}
+
+.md-sidebar__scrollwrap .md-nav__link:hover,
+.md-sidebar__scrollwrap .md-nav__link:focus {
+  color: #008055 !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar__scrollwrap .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-sidebar__scrollwrap .md-nav__link:focus {
+  color: #00ff99 !important;
+}
+
+.md-sidebar__scrollwrap .md-nav__link--active {
+  color: #006644 !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar__scrollwrap .md-nav__link--active {
+  color: #00d99a !important;
+}
+
+/* Left sidebar navigation */
+.md-nav--primary .md-nav__link,
+.md-nav--primary .md-nav__link:link,
+.md-nav--primary .md-nav__link:visited {
+  color: inherit !important;
+}
+
+.md-nav--primary .md-nav__link:hover,
+.md-nav--primary .md-nav__link:focus {
+  color: #008055 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__link:focus {
+  color: #00ff99 !important;
+}
+
+.md-nav--primary .md-nav__link--active {
+  color: #006644 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__link--active {
+  color: #00d99a !important;
+}
+
+/* Right sidebar table of contents */
+.md-nav--secondary .md-nav__link,
+.md-nav--secondary .md-nav__link:link,
+.md-nav--secondary .md-nav__link:visited {
+  color: inherit !important;
+}
+
+.md-nav--secondary .md-nav__link:hover,
+.md-nav--secondary .md-nav__link:focus {
+  color: #008055 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link:focus {
+  color: #00ff99 !important;
+}
+
+.md-nav--secondary .md-nav__link--active {
+  color: #006644 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link--active {
+  color: #00d99a !important;
+}
+
+/* Override Material theme default navigation colors */
+:root {
+  --md-primary-fg-color: #006644;
+  --md-accent-fg-color: #006644;
+  --md-typeset-a-color: #006644;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #00d99a;
+  --md-accent-fg-color: #00d99a;
+  --md-typeset-a-color: #00d99a;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #006644;
+  --md-accent-fg-color: #006644;
+  --md-typeset-a-color: #006644;
+}
+
+/* Force override any remaining blue colors in navigation */
+.md-nav__link[href],
+.md-nav__link[href]:visited,
+.md-nav__link[href]:link {
+  color: inherit !important;
+}
+
+.md-nav__link[href]:hover,
+.md-nav__link[href]:focus {
+  color: #008055 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link[href]:hover,
+[data-md-color-scheme="slate"] .md-nav__link[href]:focus {
+  color: #00ff99 !important;
+}
+
+.md-nav__link[href].md-nav__link--active {
+  color: #006644 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link[href].md-nav__link--active {
+  color: #00d99a !important;
+}
+
+/* Override any blue accent colors */
+.md-typeset a:not(.md-button) {
+  color: #006644 !important;
+}
+
+.md-typeset a:not(.md-button):hover {
+  color: #008055 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):hover {
+  color: #00ff99 !important;
 }

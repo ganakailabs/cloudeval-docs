@@ -4,7 +4,7 @@
 
 ## What is Cloudeval?
 
-Cloudeval is an AI-powered platform that automatically visualizes your Azure infrastructure from ARM templates and Bicep files, answers questions about your setup, and helps optimize costs. Built specifically for DevOps engineers, SREs, and cloud architects who work with Infrastructure as Code.
+Cloudeval is an AI-powered platform that automatically visualizes your Azure infrastructure from ARM templates, answers questions about your setup, and provides interactive visualizations with cost and security overlays. Built specifically for DevOps engineers, SREs, and cloud architects who work with Infrastructure as Code. (Bicep support coming Early Feb 2026 - [View roadmap](https://cloudeval.ai/home/roadmap))
 
 ## Who is Cloudeval For?
 
@@ -44,12 +44,12 @@ Upload and visualize your Infrastructure as Code:
 
 **Supported Formats:**
 
-- Azure ARM Templates (JSON)
-- Azure Bicep files
-- Modular templates (linked templates)
-- Parameter files
-- Terraform (Coming Soon)
-- AWS CloudFormation (Coming Soon)
+- Azure ARM Templates (JSON) - Available now
+- Azure Bicep files - Coming Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
+- Modular templates (linked templates) - Available now
+- Parameter files - Available now
+- Terraform - Coming Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
+- AWS CloudFormation - Coming Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
 
 **Features:**
 

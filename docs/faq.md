@@ -30,19 +30,24 @@ Yes. Cloudeval:
 
 ### What Infrastructure as Code formats are supported?
 
+**Available Now:**
+
 - Azure ARM Templates (JSON)
-- Azure Bicep files
 - Modular templates (linked templates)
 - Parameter files
-- Terraform (Coming Soon)
-- AWS CloudFormation (Coming Soon)
+
+**Coming Soon:**
+
+- Azure Bicep files - Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
+- Terraform - Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
+- AWS CloudFormation - Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
 
 ### Can I connect my Azure account directly?
 
 ::: warning Coming Soon
-Direct Azure account connection is currently in development. Cloudeval currently works with Infrastructure as Code files.
+Direct Azure account connection is coming in **March 2026** as part of our "Azure Cloud Sync v1" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
 
-**[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
+Cloudeval currently works with Infrastructure as Code files (ARM templates). **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 :::
 
 For now, you can:
@@ -84,11 +89,11 @@ The [Playground](https://cloudeval.ai/playground) is an interactive demo where y
 
 ### How do I upload my Bicep file?
 
-1. Create a new project
-2. Click **"Upload File"**
-3. Select your Bicep file (`.bicep`)
-4. For modular templates, upload all related files
-5. Cloudeval automatically parses and generates the diagram
+::: info Coming Soon
+Bicep file support is coming in **Early February 2026** as part of our "Full Infrastructure as Code Support" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
+
+Currently, you can upload ARM templates (JSON). Bicep support will be available soon.
+:::
 
 ## Infrastructure as Code
 
@@ -214,51 +219,393 @@ No. The AI can only read and analyze. It cannot make changes to your code or inf
 
 ## Troubleshooting
 
-### Template parsing fails
+### Template Parsing Issues
+
+#### Template parsing fails
 
 **Problem:** Can't parse ARM template or Bicep file
 
-**Solutions:**
+**Symptoms:**
 
-- Verify file is valid JSON (for ARM) or valid Bicep syntax
-- Check for syntax errors
-- Ensure all required parameters are provided
-- Try validating with Azure CLI first:
-
-  ```bash
-  # For ARM
-  az deployment group validate --resource-group my-rg --template-file template.json
-
-  # For Bicep
-  az bicep build --file main.bicep
-  ```
-
-### Diagram doesn't update after editing
+- Error message when uploading
+- Empty diagram after upload
+- Parsing errors in console
 
 **Solutions:**
 
-- Save your changes in the editor
-- Refresh the diagram view
-- Check for syntax errors
-- Verify changes are valid
+1. **Verify file format:**
 
-### Export fails or is poor quality
+   - ARM templates must be valid JSON
+   - Bicep files must be valid Bicep syntax
+   - Check file encoding (UTF-8)
+
+2. **Check for syntax errors:**
+
+   - Validate JSON syntax (use JSON validator)
+   - Validate Bicep syntax (use `az bicep build`)
+   - Look for missing commas, brackets, quotes
+
+3. **Validate with Azure CLI:**
+
+   ```bash
+   # For ARM templates
+   az deployment group validate \
+     --resource-group my-rg \
+     --template-file template.json \
+     --parameters @parameters.json
+
+   # For Bicep files
+   az bicep build --file main.bicep
+   ```
+
+4. **Check required parameters:**
+
+   - Ensure all required parameters are provided
+   - Verify parameter types match
+   - Check for missing parameter files
+
+5. **Modular templates:**
+   - Upload all linked templates
+   - Verify template references are correct
+   - Check for circular dependencies
+
+#### Partial parsing (some resources missing)
+
+**Problem:** Only some resources appear in diagram
 
 **Solutions:**
 
-- Try different format
-- Reduce diagram complexity
-- Use higher resolution
+- Check if resources are in correct section (`resources` array)
+- Verify resource definitions are complete
+- Check for conditional resources (may be filtered)
+- Ensure all linked templates are uploaded
+
+#### Linked template errors
+
+**Problem:** Linked templates not resolving
+
+**Solutions:**
+
+- Upload all linked template files
+- Verify template reference URLs/paths
+- Check template schema versions
+- Ensure templates are accessible
+
+### Diagram Issues
+
+#### Diagram doesn't update after editing
+
+**Problem:** Changes in editor don't reflect in diagram
+
+**Solutions:**
+
+1. **Save changes:**
+
+   - Press `Ctrl+S` (or `Cmd+S` on Mac) to save
+   - Enable auto-save in settings
+   - Wait for save confirmation
+
+2. **Refresh diagram:**
+
+   - Click "Refresh Diagram" button
+   - Close and reopen diagram view
+   - Reload the page
+
+3. **Check for errors:**
+
+   - Look for syntax errors in editor
+   - Verify template is valid
+   - Check error panel for issues
+
+4. **Verify changes:**
+   - Ensure changes are actually saved
+   - Check if changes are in correct file
+   - Verify file is the one being displayed
+
+#### Empty or incomplete diagram
+
+**Problem:** Diagram shows no resources or missing resources
+
+**Solutions:**
+
+- Verify template has resources defined
+- Check if resources are in `resources` section
+- Ensure template parsed successfully
+- Check filters aren't hiding resources
+- Verify all linked templates uploaded
+
+#### Diagram is too cluttered
+
+**Problem:** Too many resources, hard to read
+
+**Solutions:**
+
+- Use filters to focus on specific resources
+- Group related resources
+- Use different views (network, security, cost)
+- Break into multiple diagrams
+- Adjust zoom level
+
+#### Resources not connecting
+
+**Problem:** Dependencies not showing connections
+
+**Solutions:**
+
+- Verify `dependsOn` properties are correct
+- Check resource references are valid
+- Ensure related resources are in template
+- Check for circular dependencies
+- Verify resource IDs match
+
+### Export Issues
+
+#### Export fails or times out
+
+**Problem:** Export doesn't complete or fails
+
+**Solutions:**
+
+1. **Reduce complexity:**
+
+   - Filter out unnecessary resources
+   - Simplify diagram before export
+   - Break large diagrams into smaller ones
+
+2. **Try different format:**
+
+   - PNG for images
+   - SVG for vector graphics
+   - PDF for documents
+   - Lower resolution if needed
+
+3. **Check browser:**
+
+   - Update browser to latest version
+   - Clear browser cache
+   - Try different browser
+   - Disable browser extensions
+
+4. **Contact support:**
+   - If issue persists, contact support
+   - Include error message
+   - Share template details (if possible)
+
+#### Poor export quality
+
+**Problem:** Exported image is blurry or low quality
+
+**Solutions:**
+
+- Use higher resolution setting
+- Export as SVG instead of PNG
+- Check zoom level before export
+- Use PDF format for documents
+- Ensure high DPI setting
+
+#### Missing elements in export
+
+**Problem:** Some resources don't appear in exported file
+
+**Solutions:**
+
+- Ensure resources are visible in diagram
+- Check filters aren't hiding resources
+- Refresh diagram before export
+- Try different export format
+- Verify all resources are in view
+
+### AI Chat Issues
+
+#### AI chat doesn't understand my question
+
+**Problem:** AI gives incorrect or irrelevant answers
+
+**Solutions:**
+
+1. **Be more specific:**
+
+   - Include resource names
+   - Specify what you're looking for
+   - Provide context
+
+2. **Use natural language:**
+
+   - Ask questions like you would a colleague
+   - Avoid overly technical jargon
+   - Use clear, simple language
+
+3. **Provide context:**
+
+   - Reference specific resources
+   - Mention what you're trying to do
+   - Include relevant details
+
+4. **Try rephrasing:**
+   - Ask the same question differently
+   - Break complex questions into parts
+   - Use different keywords
+
+#### AI chat is slow
+
+**Problem:** AI responses take too long
+
+**Solutions:**
+
+- Check internet connection
+- Wait for response (may take 10-30 seconds)
+- Simplify question
+- Try again if timeout
+- Check if service is available
+
+#### AI chat not available
+
+**Problem:** AI chat feature not working
+
+**Solutions:**
+
+- Refresh the page
+- Check if feature is enabled
+- Verify account has access
+- Try different browser
 - Contact support
 
-### AI chat doesn't understand my question
+### Performance Issues
+
+#### Diagram generation is slow
+
+**Problem:** Takes too long to generate diagram
 
 **Solutions:**
 
-- Be more specific
-- Use natural language
-- Provide context
-- Try rephrasing
+- **Large templates:** Break into smaller modules
+- **Complex dependencies:** Simplify relationships
+- **Many modules:** Reduce number of linked templates
+- **Network:** Check internet connection speed
+- **Browser:** Close other tabs/applications
+
+#### Editor is slow or laggy
+
+**Problem:** Code editor is unresponsive
+
+**Solutions:**
+
+- Refresh the page
+- Close and reopen editor
+- Reduce file size (if very large)
+- Check browser performance
+- Try different browser
+
+#### Page loads slowly
+
+**Problem:** Cloudeval takes long to load
+
+**Solutions:**
+
+- Check internet connection
+- Clear browser cache
+- Disable browser extensions
+- Try different browser
+- Check if service is available
+
+### Permission and Access Issues
+
+#### Can't upload files
+
+**Problem:** File upload fails or not allowed
+
+**Solutions:**
+
+- Check file size (may have limits)
+- Verify file format is supported
+- Check browser permissions
+- Try different file
+- Contact support if persists
+
+#### Can't access project
+
+**Problem:** Can't open or view project
+
+**Solutions:**
+
+- Verify you have access permissions
+- Check if project exists
+- Refresh the page
+- Try logging out and back in
+- Contact project owner
+
+#### Collaboration issues
+
+**Problem:** Can't collaborate or share
+
+**Solutions:**
+
+- Verify collaboration is enabled
+- Check sharing permissions
+- Ensure team members have access
+- Verify account type supports collaboration
+- Contact support
+
+### Browser and Compatibility
+
+#### Feature doesn't work in my browser
+
+**Problem:** Some features not working
+
+**Solutions:**
+
+- **Update browser:** Use latest version
+- **Supported browsers:** Chrome, Firefox, Edge, Safari (latest)
+- **Enable JavaScript:** Required for all features
+- **Disable extensions:** May interfere
+- **Try different browser:** Isolate issue
+
+#### Mobile device issues
+
+**Problem:** Cloudeval doesn't work well on mobile
+
+**Solutions:**
+
+- Use desktop/laptop for best experience
+- Some features optimized for desktop
+- Try mobile browser (limited features)
+- Use responsive view if available
+
+### Account and Billing
+
+#### Can't sign up
+
+**Problem:** Sign up process fails
+
+**Solutions:**
+
+- Check email is valid
+- Verify password meets requirements
+- Check if account already exists
+- Try different email
+- Contact support
+
+#### Account limits reached
+
+**Problem:** Hit free tier limits
+
+**Solutions:**
+
+- Review account limits
+- Delete old projects
+- Upgrade to Pro tier
+- Contact support for options
+
+#### Billing questions
+
+**Problem:** Questions about pricing or billing
+
+**Solutions:**
+
+- Check pricing page
+- Review account settings
+- Contact billing support
+- Review terms of service
 
 ## Performance & Limits
 

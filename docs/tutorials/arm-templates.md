@@ -4,7 +4,7 @@
 
 This tutorial shows you how to upload and visualize Azure ARM templates in Cloudeval, creating interactive diagrams that help you understand your infrastructure before deployment.
 
-<video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
+<video controls preload="metadata" style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/automated-diagrams.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>

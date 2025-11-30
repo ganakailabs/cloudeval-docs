@@ -1,7 +1,9 @@
 # Cloud Import
 
 ::: warning Coming Soon
-Direct cloud account import is currently in development. Cloudeval currently works with Infrastructure as Code files (ARM templates and Bicep).
+Direct cloud account import is coming in **March 2026** (Azure) and **Early July 2026** (AWS) as part of our cloud sync features.
+
+Cloudeval currently works with Infrastructure as Code files (ARM templates). For cloud sync features, [view our roadmap](https://cloudeval.ai/home/roadmap).
 
 **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 :::
@@ -17,7 +19,7 @@ Cloudeval currently supports:
 - **AI Analysis** - Get insights about your infrastructure code
 - **Diagram Generation** - Visualize your infrastructure from code
 
-<video controls style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
+<video controls preload="metadata" style="min-width: 600px; max-width: 100%; height: auto; display: block; margin: 1.5rem auto;">
   <source src="../assets/videos/automated-diagrams.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>

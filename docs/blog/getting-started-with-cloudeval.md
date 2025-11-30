@@ -72,9 +72,9 @@ cloudeval evaluate --config Cloudeval.yml
 
 The evaluation will generate a report showing:
 
-- ✅ Passed checks
-- ⚠️ Warnings
-- ❌ Failed checks with recommendations
+- Passed checks
+- Warnings
+- Failed checks with recommendations
 
 ## Understanding the Results
 
