@@ -1,0 +1,81 @@
+{% extends "main.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+{{ super() }}
+
+<!-- Additional styles for landing page -->
+<style>
+  /* Application header should be static for the landing page */
+  .md-header {
+    position: initial;
+  }
+
+  /* Remove spacing, as we cannot hide it completely */
+  .md-main__inner {
+    margin: 0;
+  }
+
+  /* Hide main content for now */
+  .md-content {
+    display: none;
+  }
+
+  /* Hide table of contents */
+  @media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+      display: none;
+    }
+  }
+
+  /* Hero section */
+  .hero {
+    background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--md-primary-fg-color--dark));
+    color: var(--md-primary-bg-color);
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    color: currentColor;
+    font-weight: 700;
+    margin: 0 0 1rem;
+  }
+
+  .hero .md-button {
+    margin-top: .5rem;
+    color: var(--md-primary-bg-color);
+  }
+
+  .hero .md-button--primary {
+    background-color: var(--md-primary-bg-color);
+    border-color: var(--md-primary-bg-color);
+    color: var(--md-primary-fg-color);
+  }
+
+  .hero .md-button--primary:hover {
+    background-color: var(--md-primary-bg-color--light);
+    border-color: var(--md-primary-bg-color--light);
+  }
+</style>
+
+<!-- Hero section with feature description -->
+<section class="hero">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+        <img src="{{ base_url }}/assets/logo-abstract-cloud-dark.png" alt="Documentation" style="width: 64px; height: 64px; margin-right: 1rem; filter: brightness(0) invert(1);">
+        <h1 style="margin: 0;">{{ config.site_name }}</h1>
+      </div>
+      <p>{{ config.site_description }}</p>
+      <a href="{{ base_url }}/getting-started/overview/" title="Get started" class="md-button md-button--primary">
+        Get started
+      </a>
+      <a href="{{ repo_url }}" title="View on GitHub" class="md-button">
+        View on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}
+

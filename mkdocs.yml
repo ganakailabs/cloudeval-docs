@@ -1,0 +1,110 @@
+site_name: Cloudeval Docs
+site_description: Cloudeval Documentation
+site_author: Cloudeval Team
+site_url: https://docs.cloudeval.ai/
+
+repo_name: ganakailabs/cloudeval-docs
+repo_url: https://github.com/ganakailabs/cloudeval-docs
+edit_uri: edit/main/docs/
+
+
+extra_css:
+- assets/stylesheets/extra.css
+
+theme:
+  language: en
+  name: material
+  custom_dir: overrides
+  font:
+    text: Roboto
+  palette:
+    # Dark mode (default)
+    - scheme: slate
+      primary: black
+      accent: dark-green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    # Light mode
+    - scheme: default
+      primary: black
+      accent: dark-green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+  - navigation.instant
+  - navigation.indexes
+  - navigation.sections:
+      level: 1
+  - navigation.tabs
+  - navigation.footer
+  - content.code.annotate
+  - content.tabs.link
+  - content.code.copy
+  - content.action.edit
+  - content.action.view
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      auto_title: false
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.pathconverter
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - mdx_truly_sane_lists
+  - pymdownx.tasklist
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: '#'
+      separator: '-'
+
+plugins:
+- git-revision-date-localized:
+    enable_creation_date: true
+    fallback_to_build_date: true
+- search
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Getting started:
+    - Overview: getting-started/overview.md
+    - Install: getting-started/install.md
+  # - Reference: reference.md
+  - Blog:
+    - Overview: blog/index.md
+    - Updates: blog/updates.md
+    - Tutorials: blog/tutorials.md
+    - Best Practices: blog/best-practices.md
+    - Case Studies: blog/case-studies.md
+  - Changelog: changelog.md
+  - Contribute: contribute.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ganakailabs/cloudeval-docs
+  local:
+    social_preview: https://repository-images.githubusercontent.com/184154668/58818c00-d496-11eb-9b77-016145022654
+
+copyright: Copyright &copy; 2025 Cloudeval Team
+
