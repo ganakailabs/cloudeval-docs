@@ -75,9 +75,8 @@ The playground lets you:
 
     ### Connect Azure Account
 
-    ::: warning Coming Soon
-    Direct cloud account connection is coming soon! For now, use Infrastructure as Code files.
-    :::
+    !!! warning "Coming Soon"
+        Direct cloud account connection is coming soon! For now, use Infrastructure as Code files.
 
     **Planned Features:**
     - Connect Azure subscription

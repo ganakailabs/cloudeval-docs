@@ -1,12 +1,11 @@
 # Cloud Import
 
-::: warning Coming Soon
-Direct cloud account import is coming in **March 2026** (Azure) and **Early July 2026** (AWS) as part of our cloud sync features.
+!!! warning "Coming Soon"
+    Direct cloud account import is coming in **March 2026** (Azure) and **Early July 2026** (AWS) as part of our cloud sync features.
 
-Cloudeval currently works with Infrastructure as Code files (ARM templates). For cloud sync features, [view our roadmap](https://cloudeval.ai/home/roadmap).
+    Cloudeval currently works with Infrastructure as Code files (ARM templates). For cloud sync features, [view our roadmap](https://cloudeval.ai/home/roadmap).
 
-**[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
-:::
+    **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 
 ## Current Status
 

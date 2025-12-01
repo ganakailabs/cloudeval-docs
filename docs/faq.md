@@ -44,11 +44,10 @@ Yes. Cloudeval:
 
 ### Can I connect my Azure account directly?
 
-::: warning Coming Soon
+!!! warning "Coming Soon"
 Direct Azure account connection is coming in **March 2026** as part of our "Azure Cloud Sync v1" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
 
-Cloudeval currently works with Infrastructure as Code files (ARM templates). **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
-:::
+    Cloudeval currently works with Infrastructure as Code files (ARM templates). **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 
 For now, you can:
 
@@ -89,11 +88,10 @@ The [Playground](https://cloudeval.ai/playground) is an interactive demo where y
 
 ### How do I upload my Bicep file?
 
-::: info Coming Soon
+!!! info "Coming Soon"
 Bicep file support is coming in **Early February 2026** as part of our "Full Infrastructure as Code Support" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
 
-Currently, you can upload ARM templates (JSON). Bicep support will be available soon.
-:::
+    Currently, you can upload ARM templates (JSON). Bicep support will be available soon.
 
 ## Infrastructure as Code
 

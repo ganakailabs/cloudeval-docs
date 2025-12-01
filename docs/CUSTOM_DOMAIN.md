@@ -1,6 +1,6 @@
 # Setting Up a Custom Domain for GitHub Pages
 
-This guide explains how to configure a custom domain for your GitHub Pages documentation site, similar to how PSRule.Rules.Azure uses `azure.github.io/PSRule.Rules.Azure`.
+This guide explains how to configure a custom domain for your GitHub Pages documentation site.
 
 ## Overview
 
@@ -118,15 +118,9 @@ Once the certificate is ready, enable **Enforce HTTPS**.
 - Ensure all links use HTTPS
 - Update `site_url` in `mkdocs.yml` to use HTTPS
 
-## Example: PSRule.Rules.Azure Setup
+## Example: Default GitHub Pages Pattern
 
-PSRule.Rules.Azure uses:
-
-- **GitHub Pages URL:** `https://azure.github.io/PSRule.Rules.Azure/`
-- **Organization:** `Azure`
-- **Repository:** `PSRule.Rules.Azure`
-
-They use the default GitHub Pages subdomain pattern (`organization.github.io/repository`), which doesn't require a custom domain but follows the same deployment process.
+Some repositories use the default GitHub Pages subdomain pattern (`organization.github.io/repository`), which doesn't require a custom domain but follows the same deployment process.
 
 ## References
 

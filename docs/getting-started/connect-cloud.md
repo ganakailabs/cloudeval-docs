@@ -1,10 +1,9 @@
 # Connect Your Cloud Provider
 
-::: warning Coming Soon
+!!! warning "Coming Soon"
 Direct cloud account connection is currently in development. For now, Cloudeval works with Infrastructure as Code files (ARM templates and Bicep).
 
-Use the [Playground](https://cloudeval.ai/playground) to explore features, or upload your ARM/Bicep files to get started immediately.
-:::
+    Use the [Playground](https://cloudeval.ai/playground) to explore features, or upload your ARM/Bicep files to get started immediately.
 
 ## Current Status
 

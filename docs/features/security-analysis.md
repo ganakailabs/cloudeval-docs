@@ -1,12 +1,11 @@
 # Security Analysis
 
-::: warning Coming Soon
+!!! warning "Coming Soon"
 Advanced security analysis with detailed vulnerability scanning and compliance checks is coming in **Mid February 2026** as part of our "Deeper AI Understanding & Cloud Insight" release.
 
-Currently, Cloudeval provides **interactive visualizations with security overlays** as part of the core platform. For advanced security analysis features, [view our roadmap](https://cloudeval.ai/home/roadmap).
+    Currently, Cloudeval provides **interactive visualizations with security overlays** as part of the core platform. For advanced security analysis features, [view our roadmap](https://cloudeval.ai/home/roadmap).
 
-**[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
-:::
+    **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 
 **Automatically Identify Security Issues in Your Infrastructure as Code**
 
@@ -51,6 +50,7 @@ Security analysis runs automatically:
 Identifies resources that are publicly accessible:
 
 **Checks for:**
+
 - Storage accounts with public blob access
 - Databases with public endpoints
 - Load balancers with public IPs
@@ -58,6 +58,7 @@ Identifies resources that are publicly accessible:
 - Key Vaults with public network access
 
 **Example Warning:**
+
 ```
 Security Issue: Storage account 'stg-public' has public blob access enabled
    Risk: High - Unauthorized access to storage data
@@ -69,12 +70,14 @@ Security Issue: Storage account 'stg-public' has public blob access enabled
 Detects missing encryption configurations:
 
 **Checks for:**
+
 - Unencrypted storage accounts
 - Databases without encryption at rest
 - Unencrypted data transfers
 - Missing encryption keys
 
 **Example Warning:**
+
 ```
 Security Issue: SQL Database 'db-production' missing encryption at rest
    Risk: Critical - Data exposure risk
@@ -86,12 +89,14 @@ Security Issue: SQL Database 'db-production' missing encryption at rest
 Reviews IAM and RBAC configurations:
 
 **Checks for:**
+
 - Overly permissive role assignments
 - Missing least-privilege principles
 - Public contributor access
 - Unrestricted network access
 
 **Example Warning:**
+
 ```
 Security Issue: Role assignment grants 'Contributor' to all users
    Risk: High - Unauthorized resource modifications
@@ -103,12 +108,14 @@ Security Issue: Role assignment grants 'Contributor' to all users
 Analyzes network security group rules:
 
 **Checks for:**
+
 - Overly permissive NSG rules
 - Missing network isolation
 - Public endpoints without restrictions
 - Insecure network configurations
 
 **Example Warning:**
+
 ```
 Security Issue: NSG allows SSH (port 22) from any source (0.0.0.0/0)
    Risk: High - Potential unauthorized access
@@ -120,6 +127,7 @@ Security Issue: NSG allows SSH (port 22) from any source (0.0.0.0/0)
 Checks against common compliance standards:
 
 **Standards:**
+
 - Azure Security Benchmark
 - CIS Azure Foundations Benchmark
 - NIST Cybersecurity Framework
@@ -127,6 +135,7 @@ Checks against common compliance standards:
 - HIPAA (when applicable)
 
 **Example Warning:**
+
 ```
 Compliance Issue: Missing diagnostic logs for Key Vault
    Standard: Azure Security Benchmark
@@ -138,12 +147,14 @@ Compliance Issue: Missing diagnostic logs for Key Vault
 Identifies security risks in parameters:
 
 **Checks for:**
+
 - Secrets in parameter defaults
 - Exposed connection strings
 - Hardcoded credentials
 - Sensitive data in outputs
 
 **Example Warning:**
+
 ```
 Security Issue: Parameter 'adminPassword' has default value
    Risk: Medium - Potential credential exposure
@@ -240,6 +251,7 @@ Integrate security checks:
 **Problem:** Security analysis shows no issues, but you know there are problems
 
 **Solutions:**
+
 - Verify template is correctly parsed
 - Check if issues are in linked templates
 - Ensure all files are uploaded
@@ -250,6 +262,7 @@ Integrate security checks:
 **Problem:** Many warnings that aren't actual issues
 
 **Solutions:**
+
 - Acknowledge intentional configurations
 - Review and adjust severity
 - Provide context in code comments
@@ -260,6 +273,7 @@ Integrate security checks:
 **Problem:** Security analysis is slow for large templates
 
 **Solutions:**
+
 - Break templates into smaller modules
 - Analyze specific sections
 - Use incremental analysis
@@ -275,4 +289,3 @@ Integrate security checks:
 ---
 
 **Need help?** [Contact support](../support.md) or [join our community](../community.md)
-

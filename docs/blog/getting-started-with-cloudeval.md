@@ -128,13 +128,13 @@ Reliability checks ensure:
 
 ## Conclusion
 
-You're now ready to start evaluating your cloud infrastructure with Cloudeval! For more advanced topics, check out our [tutorials](tutorials.md) and [best practices](best-practices.md) guides.
+You're now ready to start evaluating your cloud infrastructure with Cloudeval! For more advanced topics, check out our tutorials and guides.
 
 ## Resources
 
-- [Installation Guide](../../getting-started/install.md)
+- [Getting Started Guide](../getting-started/overview.md)
 <!-- - [API Reference](../../reference.md) -->
-- [Contribution Guide](../../contribute.md)
+- [Contribution Guide](../contribute.md)
 
 ---
 

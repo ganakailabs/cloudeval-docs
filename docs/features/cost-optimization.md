@@ -1,12 +1,11 @@
 # Cost Optimization
 
-::: warning Coming Soon
-Advanced cost optimization with detailed analysis and AI-powered recommendations is coming in **Mid February 2026** as part of our "Deeper AI Understanding & Cloud Insight" release.
+!!! warning "Coming Soon"
+    Advanced cost optimization with detailed analysis and AI-powered recommendations is coming in **Mid February 2026** as part of our "Deeper AI Understanding & Cloud Insight" release.
 
-Currently, Cloudeval provides **interactive visualizations with cost overlays** as part of the core platform. For advanced cost optimization features, [view our roadmap](https://cloudeval.ai/home/roadmap).
+    Currently, Cloudeval provides **interactive visualizations with cost overlays** as part of the core platform. For advanced cost optimization features, [view our roadmap](https://cloudeval.ai/home/roadmap).
 
-**[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
-:::
+    **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
 
 **AI-Powered Recommendations to Reduce Cloud Spending**
 

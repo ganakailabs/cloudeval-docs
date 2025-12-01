@@ -79,108 +79,6 @@ Always up-to-date diagrams that reflect your actual infrastructure code, elimina
 
 ---
 
-## FAQ
-
-### What is Cloudeval?
-
-Cloudeval is an AI-powered cloud infrastructure visualization platform that automatically generates architecture diagrams from your Infrastructure as Code (ARM templates), answers questions about your infrastructure, and provides interactive visualizations.
-
-### How does Cloudeval work?
-
-1. Upload your ARM template
-2. Cloudeval parses and analyzes the code
-3. Maps resources and dependencies
-4. Generates interactive diagrams
-5. You can ask questions, edit code, and export diagrams
-
-### Is Cloudeval secure?
-
-Yes. Cloudeval:
-
-- **No Cloud Access Required** - Works entirely from your code files
-- **Encrypted Storage** - All data encrypted at rest and in transit
-- **No Data Sharing** - Your infrastructure code is never shared
-
-### What Infrastructure as Code formats are supported?
-
-**Available Now:**
-
-- Azure ARM Templates (JSON)
-- Modular templates (linked templates)
-- Parameter files
-
-**Coming Soon:**
-
-- Azure Bicep files - Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
-- Terraform - Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
-- AWS CloudFormation - Early Feb 2026 ([View roadmap](https://cloudeval.ai/home/roadmap))
-
-### Can I connect my Azure account directly?
-
-::: warning Coming Soon
-Direct Azure account connection is coming in **March 2026** as part of our "Azure Cloud Sync v1" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
-
-Cloudeval currently works with Infrastructure as Code files (ARM templates). **[Join our waitlist](https://cloudeval.ai/waitlist)** to be notified when this feature launches.
-:::
-
-### Do I need to install anything?
-
-No. Cloudeval is a web-based application. Just sign up and use it in your browser.
-
-### How do I get started?
-
-1. **[Try the Playground](https://cloudeval.ai/playground)** - Explore features without signing up
-2. **[Sign up](https://cloudeval.ai/signup)** for a free account
-3. **[Upload your ARM template](getting-started/overview.md)**
-4. Generate your first diagram
-
-### What is the Playground?
-
-The [Playground](https://cloudeval.ai/playground) is an interactive demo where you can:
-
-- Explore sample infrastructure diagrams
-- Try the AI chat assistant
-- Test diagram features
-- Learn Cloudeval without uploading files
-
-**No sign-up required!**
-
-### How do I upload my ARM template?
-
-1. Create a new project
-2. Click **"Upload File"**
-3. Select your ARM template (`.json`) file
-4. Cloudeval automatically parses and generates the diagram
-
-### How long does it take to generate a diagram?
-
-Typical times:
-
-- Small template (< 20 resources): 5-10 seconds
-- Medium template (20-100 resources): 10-30 seconds
-- Large template (100-500 resources): 30-60 seconds
-- Very large template (> 500 resources): 1-2 minutes
-
-### How do I export diagrams?
-
-Click **Export** and choose format:
-
-- PNG (images)
-- SVG (vector)
-- Visio (VSDX)
-- draw.io (XML)
-- PDF (documents)
-
-### What's the maximum template size?
-
-Cloudeval can handle:
-
-- **Free tier:** Up to 1,000 resources per template
-- **Pro tier:** Up to 10,000 resources per template
-- **Enterprise:** Unlimited resources
-
----
-
 ## Community
 
 ### Join Our Community
@@ -270,7 +168,7 @@ Have an idea?
 To help us help you faster:
 
 1. **Check Documentation** - Your answer might be in the docs
-2. **Search FAQ** - Common issues are covered above
+2. **[Search FAQ](faq.md)** - Common issues and solutions
 3. **Check Community** - Others may have asked the same question
 4. **Gather Information:**
    - Error messages

@@ -1,10 +1,9 @@
 # Tutorial: Visualize Azure Bicep Files
 
-::: warning Coming Soon
-Azure Bicep file support is coming in **Early February 2026** as part of our "Full Infrastructure as Code Support" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
+!!! warning "Coming Soon"
+    Azure Bicep file support is coming in **Early February 2026** as part of our "Full Infrastructure as Code Support" release. [View roadmap](https://cloudeval.ai/home/roadmap) for details.
 
-Currently, you can upload ARM templates (JSON). This tutorial will be available when Bicep support launches.
-:::
+    Currently, you can upload ARM templates (JSON). This tutorial will be available when Bicep support launches.
 
 **Generate Interactive Diagrams from Your Bicep Infrastructure Code**
 

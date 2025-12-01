@@ -1,6 +1,6 @@
 # Cloudeval Docs
 
-Documentation for Cloudeval built with MkDocs and Material theme, following the same deployment pattern as [PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure).
+Documentation for Cloudeval built with MkDocs and Material theme.
 
 ## Setup
 
@@ -19,6 +19,7 @@ Documentation for Cloudeval built with MkDocs and Material theme, following the 
    Visit `http://127.0.0.1:8000` to view the site.
 
 3. Build documentation:
+
    ```bash
    mkdocs build
    ```
@@ -32,7 +33,7 @@ Documentation for Cloudeval built with MkDocs and Material theme, following the 
 
 ## Deployment
 
-The documentation is automatically deployed to GitHub Pages using GitHub Actions, following the same pattern as PSRule.Rules.Azure:
+The documentation is automatically deployed to GitHub Pages using GitHub Actions:
 
 1. **Automatic Deployment**: On every push to `main` branch
 2. **Manual Deployment**: Use workflow dispatch in GitHub Actions

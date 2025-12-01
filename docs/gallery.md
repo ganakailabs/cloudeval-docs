@@ -23,7 +23,7 @@ A simple three-tier web application with frontend, backend, and database.
 - Dependency visualization
 - Clean layout
 
-![Simple Web Application](assets/images/gallery/simple-web-app.png)
+<!-- Image placeholder: assets/images/gallery/simple-web-app.png -->
 
 **Use Case:** Small applications, proof of concepts, learning
 
@@ -46,7 +46,7 @@ A focused view of resources within a single resource group.
 - Subnet organization
 - Resource grouping
 
-![Single Resource Group](assets/images/gallery/single-rg.png)
+<!-- Image placeholder: assets/images/gallery/single-rg.png -->
 
 **Use Case:** Resource group documentation, network planning
 
@@ -72,7 +72,7 @@ A microservices-based application with multiple services and shared infrastructu
 - API gateway integration
 - Shared services identification
 
-![Microservices Architecture](assets/images/gallery/microservices.png)
+<!-- Image placeholder: assets/images/gallery/microservices.png -->
 
 **Use Case:** Microservices documentation, architecture reviews, team onboarding
 
@@ -95,7 +95,7 @@ Development, staging, and production environments with shared services.
 - Environment comparison
 - Dependency mapping
 
-![Multi-Environment](assets/images/gallery/multi-env.png)
+<!-- Image placeholder: assets/images/gallery/multi-env.png -->
 
 **Use Case:** Environment management, deployment planning, cost analysis
 
@@ -123,7 +123,7 @@ A comprehensive enterprise application with multiple components and integrations
 - Security boundaries
 - Monitoring coverage
 
-![Enterprise Application](assets/images/gallery/enterprise-app.png)
+<!-- Image placeholder: assets/images/gallery/enterprise-app.png -->
 
 **Use Case:** Enterprise architecture documentation, compliance reviews, stakeholder presentations
 
@@ -146,7 +146,7 @@ On-premises and cloud resources with connectivity.
 - Integration points
 - Network topology
 
-![Hybrid Cloud](assets/images/gallery/hybrid-cloud.png)
+<!-- Image placeholder: assets/images/gallery/hybrid-cloud.png -->
 
 **Use Case:** Hybrid cloud planning, migration documentation, connectivity reviews
 
@@ -179,7 +179,7 @@ See how Infrastructure as Code translates to visual diagrams.
 
 **After: Visual Diagram**
 
-![Before and After](assets/images/gallery/before-after.png)
+<!-- Image placeholder: assets/images/gallery/before-after.png -->
 
 **Benefits:**
 - Instant understanding
@@ -203,7 +203,7 @@ Focus on network resources and connections.
 - VPN gateways
 - ExpressRoute connections
 
-![Network Topology](assets/images/gallery/network-topology.png)
+<!-- Image placeholder: assets/images/gallery/network-topology.png -->
 
 **Use Case:** Network planning, security reviews, connectivity documentation
 
@@ -220,7 +220,7 @@ Highlight security-related resources and configurations.
 - Security boundaries
 - Encryption configurations
 
-![Security View](assets/images/gallery/security-view.png)
+<!-- Image placeholder: assets/images/gallery/security-view.png -->
 
 **Use Case:** Security audits, compliance reviews, security documentation
 
@@ -237,7 +237,7 @@ Visualize cost-related information and optimization opportunities.
 - Reserved instances
 - Cost trends
 
-![Cost View](assets/images/gallery/cost-view.png)
+<!-- Image placeholder: assets/images/gallery/cost-view.png -->
 
 **Use Case:** Cost reviews, budget planning, optimization analysis
 
@@ -256,7 +256,7 @@ Examples of custom diagram layouts and styling.
 - Annotations
 - Filters
 
-![Custom Layout](assets/images/gallery/custom-layout.png)
+<!-- Image placeholder: assets/images/gallery/custom-layout.png -->
 
 **Use Case:** Presentations, documentation, stakeholder communication
 
@@ -273,7 +273,7 @@ Diagrams with custom annotations and notes.
 - Groupings
 - Flow indicators
 
-![Annotated Diagram](assets/images/gallery/annotated.png)
+<!-- Image placeholder: assets/images/gallery/annotated.png -->
 
 **Use Case:** Documentation, onboarding, presentations, training
 
@@ -292,7 +292,7 @@ Diagrams optimized for presentations.
 - Resource names visible
 - Professional styling
 
-![Presentation Format](assets/images/gallery/presentation.png)
+<!-- Image placeholder: assets/images/gallery/presentation.png -->
 
 ---
 
@@ -307,7 +307,7 @@ Diagrams formatted for documentation.
 - Metadata included
 - Searchable text
 
-![Documentation Format](assets/images/gallery/documentation.png)
+<!-- Image placeholder: assets/images/gallery/documentation.png -->
 
 ---
 
@@ -316,9 +316,9 @@ Diagrams formatted for documentation.
 Ready to create your own diagrams?
 
 1. **[Sign up for free](https://cloudeval.ai/signup)** - No credit card required
-2. **[Upload your ARM template or Bicep file](../getting-started/overview.md)** - Generate your first diagram
-3. **[Customize your diagram](../tutorials/customize-diagrams.md)** - Make it perfect
-4. **[Export and share](../features/export.md)** - Share with your team
+2. **[Upload your ARM template or Bicep file](getting-started/overview.md)** - Generate your first diagram
+3. **[Customize your diagram](tutorials/customize-diagrams.md)** - Make it perfect
+4. **[Export and share](features/export.md)** - Share with your team
 
 ---
 
@@ -330,9 +330,9 @@ Have a great diagram you'd like to share?
 - **Community showcase** - Inspire others
 - **Best practices** - Learn from examples
 
-[Contact us](../support.md) to submit your diagram to the gallery.
+[Contact us](support.md) to submit your diagram to the gallery.
 
 ---
 
-**Want to see more?** [Try CloudEval now](https://cloudeval.ai/playground) or [view tutorials](../tutorials/arm-templates.md)
+**Want to see more?** [Try CloudEval now](https://cloudeval.ai/playground) or [view tutorials](tutorials/arm-templates.md)
 

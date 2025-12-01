@@ -101,15 +101,14 @@ nav:
     - ARM Templates: tutorials/arm-templates.md
     - AI Chat Basics: tutorials/ai-chat-basics.md
     - Customize Diagrams: tutorials/customize-diagrams.md
-  - Cloud Support: cloud-support.md
+  # - Cloud Support: cloud-support.md
+  - FAQ: faq.md
   - Changelog: changelog.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ganakailabs/cloudeval
-  local:
-    social_preview: https://repository-images.githubusercontent.com/184154668/58818c00-d496-11eb-9b77-016145022654
 
 copyright: Copyright &copy; 2025 Cloudeval Team
 

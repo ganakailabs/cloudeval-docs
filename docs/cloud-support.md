@@ -138,8 +138,8 @@ Have a cloud provider or feature you'd like to see?
 **Ways to Request:**
 
 - **[GitHub Issues](https://github.com/ganakailabs/cloudeval/issues)** - Open a feature request
-- **[Community Forum](../community.md)** - Discuss with community
-- **[Contact Support](../support.md)** - Direct feedback
+- **[Community Forum](community.md)** - Discuss with community
+- **[Contact Support](support.md)** - Direct feedback
 - **[Roadmap](https://cloudeval.ai/home/roadmap)** - View and vote on features
 
 **What to Include:**
@@ -154,8 +154,8 @@ Have a cloud provider or feature you'd like to see?
 **Get Notified:**
 
 - **[Newsletter](https://cloudeval.ai/newsletter)** - Monthly updates
-- **[Changelog](../changelog.md)** - Feature releases
-- **[Blog](../blog/)** - Product updates
+- **[Changelog](changelog.md)** - Feature releases
+- **[Blog](blog/)** - Product updates
 - **[Roadmap](https://cloudeval.ai/home/roadmap)** - Latest roadmap updates
 
 ## FAQ
@@ -182,16 +182,16 @@ Direct cloud connection features will be available in Pro and Enterprise tiers. 
 
 ### How do I request a cloud provider?
 
-Open a [GitHub issue](https://github.com/ganakailabs/cloudeval/issues) or [contact support](../support.md) with your request. You can also [view and vote on features](https://cloudeval.ai/home/roadmap) in our roadmap.
+Open a [GitHub issue](https://github.com/ganakailabs/cloudeval/issues) or [contact support](support.md) with your request. You can also [view and vote on features](https://cloudeval.ai/home/roadmap) in our roadmap.
 
 ## Next Steps
 
-- **[Getting Started](../getting-started/overview.md)** - Start using CloudEval
-- **[ARM Templates Tutorial](../tutorials/arm-templates.md)** - Learn ARM template features
+- **[Getting Started](getting-started/overview.md)** - Start using CloudEval
+- **[ARM Templates Tutorial](tutorials/arm-templates.md)** - Learn ARM template features
 - **[View Roadmap](https://cloudeval.ai/home/roadmap)** - See what's coming
-- **[Changelog](../changelog.md)** - See what's new
-- **[Community](../community.md)** - Join the discussion
+- **[Changelog](changelog.md)** - See what's new
+- **[Community](community.md)** - Join the discussion
 
 ---
 
-**Have questions?** [Contact support](../support.md) or [join our community](../community.md)
+**Have questions?** [Contact support](support.md) or [join our community](community.md)

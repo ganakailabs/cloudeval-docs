@@ -1,28 +1,12 @@
 # Deployment Guide
 
-This document explains how the documentation is deployed, similar to the [PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure) setup.
+This document explains how the documentation is deployed.
 
-## How PSRule.Rules.Azure Deploys
-
-PSRule.Rules.Azure uses a two-job GitHub Actions workflow:
-
-1. **Build Job**: 
-   - Builds the MkDocs site
-   - Pushes the built site to the `gh-pages` branch
-   
-2. **Deploy Job**:
-   - Uses GitHub's official Pages Actions
-   - Deploys the `gh-pages` branch to GitHub Pages
-
-The site is accessible at: `https://azure.github.io/PSRule.Rules.Azure/`
-
-## Our Deployment Setup
-
-Our workflow follows the same pattern:
+## Deployment Setup
 
 ### Workflow File
 
-The workflow is defined in `.github/workflows/ci.yml` (renamed to match PSRule pattern as `docs.yaml`).
+The workflow is defined in `.github/workflows/docs.yaml`.
 
 ### Process
 
